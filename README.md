@@ -17,7 +17,7 @@ Pero puedes instalar lo que necesites como
 
 Introducimos el enlace que nos genera y ya tendremos nuestra PWA.
 
-> [!NOTA]
+> [!NOTE]
 > Así es como funciona el plugin. Necesitamos un servidor HTTPS para detectar la PWA, podemos usar cualquiera como Ngrok, Cloudflare, etc....
 
 ## 🔧 Configuración
