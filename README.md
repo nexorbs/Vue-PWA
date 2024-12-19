@@ -1,3 +1,39 @@
+# Plantilla PWA Vue 3
+
+Esta plantilla incluye **Pinia**,**Vue-router** & **TypeScript**.
+
+Pero puedes instalar lo que necesites como
+- TailwindCSS
+¡Solo sigue la documentación oficial de cada cosa y listo!
+
+## 🚀 Lanzamiento
+
+1. Necesitas construir tu aplicación con el comando `npm run build`.
+2. Ejecuta el comando `npm run preview`.
+3. Necesitamos exponer el puerto.
+
+> [!TIP]
+> Si estamos en VSCode podemos usar la función de terminal `Ports` -> `Forward Port`.
+
+Introducimos el enlace que nos genera y ya tendremos nuestra PWA.
+
+> [!NOTA]
+> Así es como funciona el plugin. Necesitamos un servidor HTTPS para detectar la PWA, podemos usar cualquiera como Ngrok, Cloudflare, etc....
+
+## 🔧 Configuración
+
+Podemos ver la configuración de nuestro manifiesto en el archivo `vite.config.ts`.
+
+Si queremos cambiar el icono de nuestra APP tenemos que cambiar las imágenes que tenemos en nuestra carpeta `public/`.
+
+Recomiendo (como en la documentación) usar el [Favicon-generator](https://favicon.inbrowser.app/tools/favicon-generator)
+
+## 📚 Documentación Oficial
+
+[Vite PWA plugin](https://vite-pwa-org.netlify.app/guide/)
+
+---
+
 # Vue 3 PWA Template
 
 This template include **Pinia**,**Vue-router** & **TypeScript**.
